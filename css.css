@@ -15,8 +15,9 @@ nav {
 	height:110px;
 	background-color:white;
 }
-video {
+iframe {
 	width:100%;
+	height: 80vh;
 }
 ul {
 	vertical-align: top;
