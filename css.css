@@ -1,0 +1,160 @@
+/*CSS*/
+body {
+	overflow-x: hidden;
+	overflow-y:hidden;
+	font-family: 7fonts.ru_Verdankz;
+}
+
+main {
+	position: relative;
+}
+nav {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:110px;
+	background-color:white;
+}
+video {
+	width:100%;
+}
+ul {
+	vertical-align: top;
+	display:inline-block;
+	list-style-type:none;
+	margin-top:35px;
+	/*display: block;*/
+}
+li {
+	display:inline-block;
+	vertical-align: top;
+	/*margin-right: -4px;*/
+}
+a {
+	color:black;
+	text-decoration: none;
+}
+h1 {
+	padding-top: 15px;
+	font-size: 1.6em;
+}
+
+@font-face {
+    font-family: KisCBT;
+    src: url(KisCBT.otf);
+}
+@font-face {
+    font-family: 7fonts.ru_Verdankz;
+    src: url(7fonts.ru_Verdankz.ttf);
+}
+
+.logo {
+	margin-left:40px;
+}
+.theFirstColumn li {
+	margin-left:10px;
+}
+.theSecondColumn li {
+	margin-left:20px;
+}
+.navContainer {
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	/*display:inline-block;*/
+}
+#rightButton {
+	position: fixed;
+	top:50%;
+	margin-top:-100px;
+	right:50px;
+	width:50px;
+	height:50px;
+	border:none;
+	outline-style: none;
+    background-color:transparent;
+    background-image:url(images/button.png);
+    background-size:cover;
+}
+.page1 {
+	position: absolute;
+	width:100%;
+	left:0;
+	-webkit-transition: left 0.8s linear;
+    -moz-transition: left 0.8s linear;
+    -o-transition: left 0.8s linear;
+    transition: left 0.8s linear;
+}
+.page2 {
+	width:100%;
+	left:100%;
+	position: absolute;
+	/*background-color:#513D3D;*/
+	/*height:800px;*/
+	text-align: center;
+	-webkit-transition: left 0.8s linear;
+    -moz-transition: left 0.8s linear;
+    -o-transition: left 0.8s linear;
+    transition: all 0.8s linear;
+}
+.goodsContainer {
+	margin-bottom: 50px;
+	margin-top:40px;
+}
+.goods {
+	display:inline-block;
+	width:135px;
+	margin-right:10%;
+	margin-top:15px;
+	margin-bottom: 30px;
+	/*background-color:#941A1A;*/
+	text-align: center;
+}
+.goodsImage {
+	width:85px;
+	height:159px;
+	margin-bottom: 10px;
+	margin-left: 22px;
+    background-size:cover;
+}
+
+.barberry {
+	background-image:url(images/barberry.png);
+}
+.floral {
+	background-image:url(images/floral.png);
+}
+.mustard {
+	background-image:url(images/mustard.png);
+}
+.buckwheat {
+	background-image:url(images/buckwheat.png);
+}
+.chestnut {
+	background-image:url(images/chestnut.png);
+}
+.berriesAndHoney {
+	background-image:url(images/berriesAndHoney.png);
+}
+.seaBuckthorn {
+	background-image:url(images/seaBuckthorn.png);
+}
+.lime {
+	background-image:url(images/lime.png);
+}
+
+@media only screen and (min-width: 1400px) {
+	.navContainer {
+		width:70%;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.navContainer {
+		width:60%;
+	}
+@media only screen and (min-width: 1900px) {
+	.navContainer {
+		width:50%;
+	}
+}
